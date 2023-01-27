@@ -1,0 +1,6 @@
+nav{
+    box-sizing: border-box;
+}
+nav a {
+    display: inline;
+}
