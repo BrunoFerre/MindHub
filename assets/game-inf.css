@@ -2,33 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid black; */
 }
 header{
     min-height: 10vh;
     background-color: aqua;
     display: flex;
-    flex-direction: row;
-    align-items: end;
+    flex-wrap: wrap;
     justify-content: space-around;
+    flex-grow: 3;
+}
+header h1{
+    align-self: center;
+}
+nav{
+    align-self: end;
 }
 a{
     text-decoration: none;
-    background-color: rgb(8, 99, 144);
-    color: white;
+    color: darkslateblue;
     font-size: 25px;
     border-radius: 5px;
     margin: 4px;
     font-weight: bold;
+    align-self: flex-end;
 }
-header h1{
-    width: 60%;
+table th:hover{
+    font-size: 25px;
+    background-color: lightblue;
 }
 li{
     font-size: 20px;
 }
 header img{
     height: 100px;
-    /* width: 20%; */
 }
 main{
     display: flex;
@@ -36,7 +43,6 @@ main{
     background-color: antiquewhite;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
     justify-content: space-evenly;
 }
 main h2{
@@ -45,18 +51,38 @@ main h2{
 }
 table{
     border: 1px solid black;
-    width: 75%;
-    height: 40%;
+    width: 80%;
+    height: 100%;
 }
 
 th{
     border: 1px solid black;
 }
-.caja{
-    background-color: lightblue;
-    width: 70%;
-    height: 40%;
+.contain-in{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 80%;
+}
+.contain div{
+    width: 50%;
+}
+
+main ol li{
+    list-style: none;
+}
+div a{
+    font-size: 20px;
+    color: black;
+    list-style: none;
+}
+main ol{
+    padding: 1rem;
 }
 footer{
     min-height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
 }

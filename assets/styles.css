@@ -1,0 +1,101 @@
+:root{
+    --header-color: aqua;
+    --main-color: salmon;
+    --footer-color:lightpink;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(222, 250, 215); */
+}
+
+header{
+    min-height: 10vh;
+    background-color: var(--header-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 3;
+}
+header h1{
+    align-self: center;
+}
+nav{
+    align-self: end;
+}
+header img{
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 4px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--main-color);
+    height: 85vh;
+}
+section{
+    display: flex;
+    width: 100vw;
+}
+section img{
+    width: 0px;
+    height: 300px;
+    flex-grow: 1;
+    object-fit: fill;
+    opacity: .8;
+    transition: 0.5 ease;
+    padding: 5px;
+    border-radius: 40px;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: blue;
+}
+table{
+    width: 50%;
+    height: 40%;
+}
+thead{
+   font-size: 35px
+}
+table th:hover{
+    font-size: 25px;
+    background-color: lightblue;
+}
+#headin{
+    background-color: rgb(31, 156, 156);
+    font-size: 25px;
+    border-radius: 10px;
+    width: 80px;
+}
+#events-in{
+    text-align: left;
+}
+tr th{
+    background-color: rgb(79, 157, 206);
+    font-size: 20px;
+}
+footer{
+    background-color: var(--footer-color);
+    min-width: 5vw;
+    min-height: 4vh;
+    text-align: center;
+}
