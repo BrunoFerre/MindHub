@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 header{
-    min-height: 10vh;
+    min-height: 15vh;
     background-color: aqua;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+img{
+    height: 120px;
+    width: 120px;
 }
 header nav{
     align-self: self-end;
@@ -27,7 +31,7 @@ a{
 }
 main{
     display: flex;
-    height: 85vh;
+    height: 80vh;
     background-color: salmon;
     flex-wrap: wrap;
     align-content: flex-start;

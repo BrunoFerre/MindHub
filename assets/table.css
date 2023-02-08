@@ -12,14 +12,11 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
     flex-grow: 3;
+    align-items: center;
 }
 
 header h1 {
     align-self: center;
-}
-
-nav {
-    align-self: end;
 }
 
 a {
@@ -29,20 +26,19 @@ a {
     border-radius: 5px;
     margin: 4px;
     font-weight: bold;
-    align-self: flex-end;
 }
 
 li {
     font-size: 20px;
 }
 
-header img {
-    height: 100px;
+ img {
+    height: 300px;
 }
 
 main {
     display: flex;
-    height: 85vh;
+    /* height: 90vh; */
     background-color: antiquewhite;
     flex-wrap: wrap;
 }
@@ -54,7 +50,7 @@ h3 {
 table {
     border: 1px solid black;
     width: 60%;
-    height: 80%;
+    height: 70%;
 }
 
 th {
