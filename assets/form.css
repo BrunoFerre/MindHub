@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    min-height: 10vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+    align-self: self-end;
+}
+header h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: darkmagenta;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    align-self: flex-end;
+    gap: 0.5rem;
+}
+main{
+    display: flex;
+    height: 85vh;
+    background-color: salmon;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 1rem;
+    padding: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    align-items: start;
+    font-size: 20px;
+    width: 100%;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+fieldset{
+    border: none;
+}
+form h3{
+    padding: 1rem 1rem;
+    width: 90%;
+}
+.field_1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    width: 90%;
+}
+#fname {
+    width: 35%;
+    height: 30px;
+}
+#lname {
+    width: 40%;
+    height: 30px;
+}
+#st_address{
+    width: 88%;
+    height: 30px;
+}
+#city{
+    height: 30px;
+    width: 50%;
+}
+#zip_code{
+    width: 36%;
+    height: 30px;
+}
+#birth_date{
+    height: 30px;
+    width: 50%;
+}
+.gender_f{
+    width: 35%;
+    padding: 0px 0px 0px 3px;
+    height: 35px;
+    border: none;
+}
+.gender_f label, input{
+    padding: 1rem;
+}
+.sub{
+    width: 90%;
+}
+.closet_school{
+    display:flex;
+    flex-direction: row;
+    width: 30%;
+}
+.inputs{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    gap: 1.5rem;
+}
+.label{
+    border: none;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    padding: 0.5rem 0 1rem 0;
+    gap: 1rem;
+}
+.uniform{
+    display:flex;
+    flex-direction: row;
+    width: 30%;
+}
+
+.permission p{
+    padding: 0 0 0.5rem 0;
+}
+.date{
+    width: 30%;
+    height: 20px;
+}
+#signature{
+    width: 30%;
+    height: 20px;
+}
+
+footer{
+    min-height: 5vh;
+    background-color: darkgray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/form.css">
+    <title>Mighty Ducks Hockey League</title>
+</head>
+
+<body>
+    <header>
+        <!-- <img src="./assets/logo_mighty_ducks-01.png" alt=""> -->
+        <h1>Registration Form</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./game_information.html">Game Information</a>
+            <a href="./rules.html">Rules</a>
+        </nav>
+    </header>
+    <main>
+        <form action="show_data.html" method="get">
+            <fieldset class="field_1">
+                <label for="fname">Player's First Name</label>
+                <input type="text" id="fname">
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname">
+
+                <label for="st_address">Street Address</label>
+                <input type="text" id="st_address">
+
+                <label for="city">City:</label>
+                <input type="text" id="city">
+
+                <label for="zip_code">Zip Code</label>
+                <input type="number" id="zip_code">
+
+                <label for="birth_date">Birth Date (mm/dd/yy)</label>
+                <input type="date" name="birth_d" id="birth_date">
+                <fieldset class="gender_f">
+                    <label for="gender"> Gender:</label>
+                    <label for="female">Female</label>
+                    <input type="checkbox" name="gender" id="female">
+                    <label for="male">Male</label>
+                    <input type="checkbox" name="gender" id="male">
+                </fieldset>
+                <label for="grade">Grade:</label>
+                <label for="grade">Pre-School</label>
+                <label for="grade">1st</label>
+                <input type="checkbox" name="grade">
+                <label for="grade">2nd</label>
+                <input type="checkbox" name="grade">
+                <label for="grade">3rd</label>
+                <input type="checkbox" name="grade">
+                <label for="grade">4th</label>
+                <input type="checkbox" name="grade">
+                <label for="grade">5th</label>
+                <input type="checkbox" name="grade">
+            </fieldset>
+            <fieldset class="sub">
+            <h3>Which elementary school do you live near?</h3>
+            </fieldset>
+            <fieldset class="closet_school">
+                <legend>Closet School:</legend>
+                <fieldset class="inputs">
+                    <input type="checkbox" id="katzenmaier">
+                    <input type="checkbox" id="greenbay">
+                    <input type="checkbox" id="howard">
+                </fieldset>
+                <fieldset class="label">
+                    <label for="katzenmaier">AJ Katzenmaier</label>
+                    <label for="greenbay">Greenbay</label>
+                    <label for="howard">Howard A Yeager</label>
+                </fieldset>
+                <fieldset class="inputs">
+                    <input type="checkbox" id="marjorie">
+                    <input type="checkbox" id="north">
+                    <input type="checkbox" id="south">
+                </fieldset>
+                <fieldset class="label">
+                    <label for="marjorie">Marjorie P Hart</label>
+                    <label for="north">North Elementary</label>
+                    <label for="south">South Elementary</label>
+                </fieldset>
+            </fieldset>
+            </fieldset>
+            <fieldset class="uniform">
+                <legend>Uniform Size:</legend>
+                <fieldset class="inputs">
+                    <input type="checkbox" id="ysmal">
+                    <input type="checkbox" id="ymedium">
+                    <input type="checkbox" id="ylarge">
+                </fieldset>
+                <fieldset class="label">
+                    <label for="ysmal">Youth Smal</label>
+                    <label for="ymedium">Youth Medium</label>
+                    <label for="ylarge">Youth Large</label>
+                </fieldset>
+                <fieldset class="inputs">
+                    <input type="checkbox" id="slarge">
+                    <input type="checkbox" id="medium">
+                    <input type="checkbox" id="large">
+                </fieldset>
+                <fieldset class="label">
+                    <label for="slarge">Small Large</label>
+                    <label for="medium">Medium</label>
+                    <label for="large">Large</label>
+                </fieldset>
+                <fieldset class="inputs">
+                    <input type="checkbox" id="extral">
+                </fieldset>
+                <fieldset class="label">
+                    <label for="extral">Extra Large</label>
+                </fieldset>
+            </fieldset>
+            <fieldset class="permission">
+                <legend>Permission to Play</legend>
+                <p>
+                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by the 
+                    rules of the Mighty Ducks Hockey League (MDHL). In recognizing the posibility of physical injury associated with hockey and in considerarion for the "League" accepting the registrant for inputs
+                    hockey programs and activities,, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associanted personnel and volunteers, including the facilities used for practices 
+                    and games, againts any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, wich transportation.
+                    By sinning below, I herebyagree adnauthorized above. In addition, by signing below, lalso acknowledge that i have read cancellation policy and agree to its terms</p>
+                <label for="signature">Parent/Guardin Signature</label>
+                <input type="text" name="signature" id="signature">
+                <label for="date">Date</label>
+                <input type="date" class="date">
+            </fieldset>
+            <input type="submit" value="Aceptar">
+        </form>
+    </main>
+    <footer>Ferreia Bruno Marcos</footer>
+</body>
+
+</html>
