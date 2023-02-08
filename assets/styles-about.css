@@ -97,10 +97,6 @@ section article{
 footer{
     min-height: 5vh;
     min-width: 90vw;
-<<<<<<< HEAD
-    background-color: blueviolet;
-=======
     background-color: var(--footer-color);
     text-align: center;
->>>>>>> f77ee4b67d6891a5ffed800df3de759c45ba314e
 }
