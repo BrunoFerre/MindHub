@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
     /* sbackground-color: aqua; */
 }
+=======
+}
+
+>>>>>>> f77ee4b67d6891a5ffed800df3de759c45ba314e
 header{
     min-height: 10vh;
     background-color: aqua;
@@ -18,18 +23,30 @@ header h1{
 nav{
     align-self: end;
 }
+<<<<<<< HEAD
+=======
+a:hover{
+    font-style: oblique;
+    font-weight: bold;
+}
+>>>>>>> f77ee4b67d6891a5ffed800df3de759c45ba314e
 header img{
     height: 100px;
 }
 a{
     text-decoration: none;
+<<<<<<< HEAD
     color: darkslateblue;
+=======
+    color: rgb(61, 75, 139);
+>>>>>>> f77ee4b67d6891a5ffed800df3de759c45ba314e
     font-size: 25px;
     border-radius: 5px;
     margin: 4px;
     font-weight: bold;
     align-self: flex-end;
 }
+<<<<<<< HEAD
 main{
     display: flex;
     flex-wrap: wrap;
@@ -75,4 +92,67 @@ ol li{
 footer{
     min-height: 5vh;
     background-color: darkgray;
+=======
+
+header {
+    min-height: 10vh;
+    background-color: salmon;
+}
+
+main {
+    background-color: lightblue;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100vw;
+    height: 85vh;
+    gap: 1rem;
+}
+
+main div {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+div article:hover{
+    display: flex;
+    cursor: help;
+    width: 100%;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: bold;
+}
+div article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+article img{
+    width:0;
+    flex-grow: 1;
+    border-radius: 30px
+}
+li{
+    list-style: none;
+}
+#all{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h2 {
+    text-align: center;
+}
+footer {
+    min-height: 4vh;
+    background-color: lightpink;
+    text-align: center;
+>>>>>>> f77ee4b67d6891a5ffed800df3de759c45ba314e
 }

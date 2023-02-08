@@ -1,9 +1,18 @@
+<<<<<<< HEAD
+=======
+:root{
+    --header-color: aqua;
+    --main-color: salmon;
+    --footer-color:lightpink;
+}
+>>>>>>> f77ee4b67d6891a5ffed800df3de759c45ba314e
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 header{
+<<<<<<< HEAD
     min-height: 5vh;
     min-width: 90vw;
     background-color: beige;
@@ -69,9 +78,100 @@ section article:nth-child(2){
 }
 section article:nth-child(3){
     background-color: royalblue;
+=======
+    min-height: 10vh;
+    background-color: var(--header-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-grow: 3;
+}
+header h1{
+    align-self: center;
+}
+nav{
+    align-self: end;
+}
+a{
+    text-decoration: none;
+    color: darkslateblue;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 4px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+table th:hover{
+    font-size: 25px;
+    background-color: lightblue;
+}
+li{
+    font-size: 20px;
+}
+header img{
+    height: 100px;
+}
+main{
+    display: flex;
+    height: 84vh;
+    align-items: stretch;
+    background-color: var(--main-color);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 1rem;
+}
+.container img{
+    width: 0;
+    height: 300px;
+    flex-grow: 1;
+    object-fit: fill;
+    opacity: .8;
+    transition: 0.5 ease;
+    border-radius: 40px;
+}
+.container img:hover{
+    cursor: crosshair;
+    width: 350px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 60%;
+}
+section h2{
+    display: flex;
+     flex-direction: column; 
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section article{
+    width: 30%;
+    padding: 3px;
+    font-size: 25px;
+    border-radius: 23px;
+    border: 1px solid salmon;
+    text-indent: 30px;
+>>>>>>> f77ee4b67d6891a5ffed800df3de759c45ba314e
 }
 footer{
     min-height: 5vh;
     min-width: 90vw;
+<<<<<<< HEAD
     background-color: blueviolet;
+=======
+    background-color: var(--footer-color);
+    text-align: center;
+>>>>>>> f77ee4b67d6891a5ffed800df3de759c45ba314e
 }
